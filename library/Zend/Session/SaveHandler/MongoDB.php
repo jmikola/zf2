@@ -179,7 +179,7 @@ class MongoDB implements SaveHandlerInterface
      * Garbage collection
      *
      * Note: MongoDB 2.2+ supports TTL collections, which may be used in place
-     * of this method by indexing with "modified" field with an
+     * of this method by indexing the "modified" field with an
      * "expireAfterSeconds" option.
      *
      * @see http://docs.mongodb.org/manual/tutorial/expire-data/
